@@ -5,6 +5,9 @@
     font-family: 'Monteserrat', Arial, Helvetica, sans-serif ;
     font-size: 13px;
 
+}
+body{
+    overflow-x: hidden;
 }   
 header {
     height: 100px;
@@ -132,6 +135,52 @@ justify-content: flex-end;
 .banner .pontos.active{
 background-color: #b28756;
 }
+
+.padrao{
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.padrao .section-titulo,
+.padrao .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.padrao .section-titulo{
+    font-size: 20px;
+  
+}
+.padrao .section-desc{
+    font-size: 12px;
+    color: #978f8f;
+    margin-top:10px;
+}
+.padrao .section-body{
+    max-width: 1140px;
+    margin: auto;
+    background-color: #b28756;
+}
+.padrao.ligth{
+    background-color: #f7F7f7;
+}
+.padrao.ligth .section-titulo{
+    color: #000;
+}
+.padrao.dark{
+    background-color: #000;
+}
+.padrao.dark .section-titulo{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
 
 
 
