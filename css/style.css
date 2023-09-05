@@ -58,6 +58,18 @@ justify-content: flex-end;
 .menu nav .ativo{
     border-bottom: 5px solid #b28756;
 }
+.button{
+    display: inline-block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
@@ -101,18 +113,7 @@ justify-content: flex-end;
     margin-top:20px;
     font-size: 25px;
 }
-.banner a{
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 15px;
-    border-radius: 10px;
-}
+
 .banner .slidepontos{
     width: 100vw;
     height: 20px;
@@ -155,24 +156,56 @@ background-color: #b28756;
     font-size: 12px;
     color: #978f8f;
     margin-top:10px;
+    margin-bottom: 40px;
 }
 .padrao .section-body{
     max-width: 1140px;
     margin: auto;
-    background-color: #b28756;
+    
 }
 .padrao.ligth{
     background-color: #f7F7f7;
 }
-.padrao.ligth .section-titulo{
+.padrao.ligth .section-titulo,
+.padrao.ligth .section-body{
     color: #000;
 }
 .padrao.dark{
     background-color: #000;
 }
-.padrao.dark .section-titulo{
+.padrao.dark .section-titulo,
+.padrao.dark .section-body{
     color: #fff;
 }
+
+
+
+
+/* CSS DE AREAS ESPECIFICAS 
+*/
+
+.section-aboutus{
+    display:flex;
+}
+.section-about--esquerda{
+flex:1;
+}
+.section-about--esquerda p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+.section-about--direita{
+width: 520px;
+text-align: center;
+}
+
+.section-about--direita img{
+    width: 460px;
+    box-shadow: 7px  5px 10px #a1a0a0;
+}
+
+
 
 
 
